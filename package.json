@@ -1,0 +1,20 @@
+{
+  "name": "jira-viewer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "package": "electron-packager ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^6.0.12"
+  },
+  "devDependencies": {
+    "@types/node": "^12.7.12",
+    "electron-packager": "^14.0.6",
+    "typescript": "^3.6.4"
+  }
+}
