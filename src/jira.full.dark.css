@@ -644,9 +644,9 @@ aui-inline-dialog .aui-inline-dialog-contents, .aui-inline-dialog .aui-inline-di
     color: white!important;
 }
 
-#ghx-plan {
+/* #ghx-plan {
     display: inline-block!important;
-}
+} */
 
 #ghx-plan-group, #ghx-work {
     display: inline-table!important;
