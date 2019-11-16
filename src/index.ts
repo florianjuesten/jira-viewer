@@ -19,7 +19,6 @@ function createWindow() {
             if (!error) {
                 var formatedData = data.replace(/\s{2,10}/g, ' ').trim()
                 mainWindow.webContents.insertCSS(formatedData)
-                mainWindow.webContents.executeJavaScript('console.log("test")')
             }
         })
     });
